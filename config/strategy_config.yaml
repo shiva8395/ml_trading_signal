@@ -1,0 +1,14 @@
+strategy: random_forest
+capital: 100000
+sequence_length: 30
+
+data_path: C:\Users\HP\Desktop\ml_trading_signal\data\market_data.csv
+model_path: C:\Users\HP\Desktop\ml_trading_signal\models\rf_model.pkl
+
+features:
+  - SMA_10
+  - SMA_50
+  - Volatility
+  - Returns
+  - RSI
+
