@@ -49,22 +49,32 @@ ml_trading_signal/
 - `Streamlit` – Dashboard UI  
 - `FastAPI` – RESTful API backend
 
-  ## 🚀 How to Run
+  #---
+
+## 🚀 How to Run
 
 ### 1️⃣ Streamlit Dashboard
 ```bash
 cd ml_trading_signal
 streamlit run dashboard/app.py
 
-Key Highlights
-Built fully from scratch using simulated data
+2️⃣ FastAPI Backend
+uvicorn api.main:app --reload
+Visit Swagger UI: http://127.0.0.1:8000/docs
 
-SHAP plots integrated for model interpretability
+---
 
-Clean modular folder structure for production use
+## 📌 Key Highlights
 
-Ready for real-time trade simulation or web deployment
+- 🔨 Built fully from scratch using simulated market data  
+- 🧠 SHAP plots integrated for model interpretability  
+- 📁 Clean, modular folder structure ready for production  
+- 🚀 Designed for real-time trade simulation or cloud deployment  
 
-👨‍💻 Author
-Shiva Sai
-Pre-WashU Quant Prep
+---
+
+## 👨‍💻 Author
+
+**Shiva Sai**  
+Pre-WashU Quant Prep | AI Trading Systems | FastAPI + Streamlit Developer  
+💼 Part of the **Target $200K Execution Plan**
